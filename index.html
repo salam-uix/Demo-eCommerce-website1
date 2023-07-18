@@ -65,9 +65,9 @@
         <div class="header-nav">
           <div class="container">
             <div class="wrapper flexitem">
-              <a href="#" class="trigger desktop-hide"
-                ><span><i class="ri-menu-2-line"></i></span
-              ></a>
+              <a href="#" class="trigger desktop-hide">
+                <span><i class="ri-menu-2-line"></i></span>
+              </a>
               <div class="left flexitem">
                 <div class="logo">
                   <a href="/"><span class="circle"></span>.Store</a>
@@ -76,7 +76,7 @@
                   <ul class="flexitem second-links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Shop</a></li>
-                    <li>
+                    <li class="has-child">
                       <a href="#"
                         >Women
                         <div class="icon-small">
@@ -138,7 +138,7 @@
                             <div class="flexcol">
                               <div class="row">
                                 <h4>Top Brands</h4>
-                                <ul>
+                                <ul class="women-brands">
                                   <li><a href="#">Nike</a></li>
                                   <li><a href="#">Louis Vuitton</a></li>
                                   <li><a href="#">Hermes</a></li>
@@ -151,26 +151,29 @@
                                   <li><a href="#">Chanel</a></li>
                                   <li><a href="#">Hurley</a></li>
                                 </ul>
-                                <a href="#" class="view-all">View all brands</a>
+                                <a href="#" class="view-all"
+                                  >View all brands
+                                  <i class="ri-arrow-right-line"></i
+                                ></a>
                               </div>
                             </div>
-                            <div class="flexcol">
-                              <div class="products">
-                                <div class="row">
-                                  <div class="media">
-                                    <div class="thumbnail">
+                            <div class="flexcol products">
+                              <div class="row">
+                                <div class="media">
+                                  <div class="thumbnail object-cover">
+                                    <a href="#">
                                       <img
                                         src="./assets/products/apparel4.jpg"
                                         alt=""
                                       />
-                                    </div>
+                                    </a>
                                   </div>
-                                  <div class="text-content">
-                                    <h4>Most wanted</h4>
-                                    <a href="#" class="primary-button"
-                                      >Order Now</a
-                                    >
-                                  </div>
+                                </div>
+                                <div class="text-content">
+                                  <h4>Most Wanted!</h4>
+                                  <a href="#" class="primary-button"
+                                    >Order Now</a
+                                  >
                                 </div>
                               </div>
                             </div>
@@ -204,9 +207,9 @@
                     <a href="#" class="iscart">
                       <div class="icon-large">
                         <i class="ri-shopping-cart-line"></i>
-                      </div>
-                      <div class="fly-item">
-                        <span class="item-number">0</span>
+                        <div class="fly-item">
+                          <span class="item-number">0</span>
+                        </div>
                       </div>
                       <div class="icon-text">
                         <div class="mini-text">Total</div>
@@ -216,6 +219,25 @@
                   </li>
                 </ul>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="header-main mobile-hide">
+          <div class="container">
+            <div class="wrapper flex-item">
+              <div class="left">
+                <div class="dpt-cat">
+                  <div class="dpt-head">
+                    <div class="main-text">All Departments</div>
+                    <div class="mini-text mobile-hide">Total 1059 products</div>
+                    <a href="#" class="dpt-trigger mobile-hide">
+                      <i class="ri-menu-3-line ri-xl"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="right"></div>
             </div>
           </div>
         </div>
